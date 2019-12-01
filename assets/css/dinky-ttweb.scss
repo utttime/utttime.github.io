@@ -1,10 +1,18 @@
 ---
 ---
+// The first two lines are essential for jekyll to recognize this file
 
+// Define variables
+$letter-color: #242038;
+$ttw-red: #993333;
+
+body, h1, h2, h3, h4, h5, h6 {
+	color: $letter-color;
+}
 header {
-	background-color: #993333; //#171717;
-	color: #ffffff; //#FDFDFB;
-  width:170px;
+	background-color: $ttw-red;
+	color: #ffffff;
+  width:200px;
   float:left;
   position:fixed;
 	border: 1px solid #000;
@@ -17,4 +25,49 @@ header {
 	padding: 34px 25px 22px 50px;
 	margin: 30px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
+}
+ul.horizontal{
+	height: 50px;
+	display: block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+	li{
+			float: left;
+			width: 120px;
+			display: list-item;
+			// background-color: #242038;
+			a{
+				display: block;
+				color: #666;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+	}
+}
+ul.gray{
+	border: 1px solid #e7e7e7;
+	background-color: $letter-color;
+}
+div.categories span{// categories on post
+	color: #ffffff;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: $ttw-red;
+	padding-right: 5px;
+	padding-left: 5px;
+	a, &:hover{
+		color: #ffffff;
+	}
+}
+div.menubar{
+	height: 200px;
+	width: 650px;
+  float: right;
 }
