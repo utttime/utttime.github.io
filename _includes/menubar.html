@@ -1,0 +1,11 @@
+<div class="banner">
+  <img src="/assets/images/2014/05/e6b1a28e49dc802200217bf2115122601.png">
+</div>
+<ul class="horizontal gray">
+  {% for page in site.pages %}
+    {% assign filenames = page.name | split: "cat-" %}
+    {% if page.layout == 'page' and filenames.size==1 %}
+    <li><a href='{{page.permalink}}'>{{page.title}}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
