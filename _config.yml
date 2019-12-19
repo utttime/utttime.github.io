@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ttime Web!
-email: your-email@example.com
+title: Ttime! Web
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  You can edit this line in _config.yml.
+  工学部広報誌 Ttime!のWebページです
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: ja-JP
@@ -26,10 +26,15 @@ permalink: /:year/:month/:day/:title
 
 # Build settings
 markdown: kramdown
-theme:  jekyll-theme-dinky # minima
-plugins:
-  - jekyll-feed
-
+theme:  jekyll-theme-dinky
+incremental: true
+# plugins:
+#   - jekyll-feed
+names_category:
+  brochure: '冊子'
+  event: 'イベントレポート'
+  deptintro: '学科紹介'
+  others: 'その他'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -41,4 +46,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-incremental: true

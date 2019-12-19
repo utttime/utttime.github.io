@@ -8,23 +8,21 @@ layout: base
 
   {%- if site.posts.size > 0 -%}
     <h2>新着</h2>
-    <ul>
-      {% for post in site.posts limit: 5 %}
+    <ul class="post-list">
+      {% for post in site.posts limit: 10 %}
         <li>
-          <a href="{{post.url}}">{{post.title}}</a>
-          (<i>{{post.date | date: "%Y/%m/%d"}}</i>)
+          {%- include post_display_card.html post=post -%}
         </li>
       {% endfor %}
     </ul>
     {% for keyvalue in site.categories %}
       {% assign c = keyvalue[0] %}
       <h2>{{c}}</h2>
-      {% assign cat-posts = site.posts | where: "category", c %}
-      <ul>
+      {% assign cat-posts = site.posts | where: "categories", c %}
+      <ul class="post-list">
       {%- for post in cat-posts limit: 5 -%}
         <li>
-          <a href="{{post.url}}">{{post.title}}</a>
-          (<i>{{post.date | date: "%Y/%m/%d"}}</i>)
+          {%- include post_display_card.html post=post show_category=false -%}
         </li>
       {%- endfor -%}
       </ul>

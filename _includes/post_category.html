@@ -1,0 +1,9 @@
+<div class="categories">
+  {% for c in include.categories %}
+    {% if include.show_link %}
+    <span><a href="/{{c}}/">{{ site.names_category[c] }}</a></span>
+    {% else %}
+    <span>{{ site.names_category[c] }}</span>
+    {% endif %}
+  {% endfor %}
+</div>
