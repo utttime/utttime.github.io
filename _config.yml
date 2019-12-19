@@ -32,8 +32,9 @@ incremental: true
 #   - jekyll-feed
 names_category:
   brochure: '冊子'
+  campus-life: '学生生活'
   event: 'イベントレポート'
-  deptintro: '学科紹介'
+  dept-intro: '学科紹介'
   others: 'その他'
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

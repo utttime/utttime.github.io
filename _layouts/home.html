@@ -17,7 +17,7 @@ layout: base
     </ul>
     {% for keyvalue in site.categories %}
       {% assign c = keyvalue[0] %}
-      <h2>{{c}}</h2>
+      <h2>{{ site.names_category[c] }}</h2>
       {% assign cat-posts = site.posts | where: "categories", c %}
       <ul class="post-list">
       {%- for post in cat-posts limit: 5 -%}

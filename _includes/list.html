@@ -1,7 +1,7 @@
-{% assign category = include.category %}
+{% assign category = include.categories %}
 
-{% assign cat-posts = site.posts | where: "category", category %}
-<h2>{{ category }}</h2>
+{% assign cat-posts = site.posts | where: "categories", category %}
+<h2>{{ site.names_category[category] }}</h2>
 <ul>
   {%- for post in cat-posts -%}
   <li><a href="{{post.url}}">{{post.title}}</a></li>

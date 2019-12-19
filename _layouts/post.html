@@ -6,13 +6,8 @@ layout: base
 {% endif %}
 
 {% if page.categories %}
-<div class="categories">
-  {% for c in page.categories %}
-    <span><a href="/{{c}}/">{{ c }}</a></span>
-  {% endfor %}
-</div>
+  {%- include post_category.html categories=page.categories show_link=true -%}
 {% endif %}
-
 <section>
   {{ content }}
 </section>
