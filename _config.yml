@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ttime! Web
-# email: your-email@example.com
+email: ttime.todai[at]gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  工学部広報誌 Ttime!のWebページです
+  東大工学部のイマを伝えるホームページ
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: ja-JP
@@ -28,8 +28,7 @@ permalink: /:year/:month/:day/:title
 markdown: kramdown
 theme:  jekyll-theme-dinky
 incremental: true
-# plugins:
-#   - jekyll-feed
+# User defining variables: カテゴリを英語→日本語。urlだと日本語を処理できないため
 names_category:
   brochure: '冊子'
   campus-life: '学生生活'
