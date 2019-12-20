@@ -15,10 +15,10 @@ layout: base
         </li>
       {% endfor %}
     </ul>
-    {% for keyvalue in site.categories %}
-      {% assign c = keyvalue[0] %}
+    {%- for keyvalue in site.categories -%}
+      {%- assign c = keyvalue[0] -%}
       <h2>{{ site.names_category[c] }}</h2>
-      {% assign cat-posts = site.posts | where: "categories", c %}
+      {%- assign cat-posts = site.posts | where: "categories", c -%}
       <ul class="post-list">
       {%- for post in cat-posts limit: 5 -%}
         <li>
@@ -26,6 +26,6 @@ layout: base
         </li>
       {%- endfor -%}
       </ul>
-    {% endfor %}
+    {%- endfor -%}
   {%- endif -%}
 </div>

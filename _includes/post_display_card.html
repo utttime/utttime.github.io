@@ -1,20 +1,20 @@
 {%- assign post = include.post -%}
 
-{%- if include.show_category -%}
+{%- if include.show_category != nil  -%}
   {%- assign show_category=include.show_category -%}
 {%- else -%}
   {%- assign show_category=true -%}
 {%- endif -%}
 
 <div class="post-item">
-  {% if show_category %}
+  {%- if show_category -%}
     {%- include post_category.html categories=post.categories -%}
-  {% endif %}
+  {%- endif -%}
   <!-- (<i>{{post.date | date: "%Y/%m/%d"}}</i>) -->
   <div class="post-title">
     <a href="{{post.url}}">{{post.title}}</a>
   </div>
-  {% if post.img %}
+  {% if post.img.defined? %}
   <div class="post-eyecatch"><img src="{{post.img}}"/></div>
   {% endif %}
 </div>
