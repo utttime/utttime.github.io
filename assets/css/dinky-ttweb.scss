@@ -55,6 +55,9 @@ ul.horizontal{
 ul.gray{
 	border: 1px solid #e7e7e7;
 	background-color: $letter-color;
+	li a{
+		color: $white;
+	}
 }
 div.categories span{// categories on post
 	color: $white;
@@ -77,14 +80,30 @@ ul.post-list{// list of posts
 	list-style-type: none;
 	li{
 		height: 60px;
-	}
-}
-div.post-item{
-	div.post-title a{
-		font-size: 12pt;
-	}
-	div.post-eyecatch{
-		width: 20%;
-		float: right;
+		div.post-item{
+			div.categories{
+				display: inline-block;
+				width: fit-content;
+				padding: 0px;
+				float: left;
+			}
+			div.post-title{
+				float: left;
+				display: inline-block;
+				clear: left;
+				a{
+					font-size: 12pt
+				}
+			}
+			div.post-eyecatch{
+				float: right;
+				height: 60px;
+				img{
+					height: 48px; // li "height: 60px", img "padding:5px"を考慮。
+					display: inline-block;
+					margin: 0px;
+				}
+			}
+		}
 	}
 }

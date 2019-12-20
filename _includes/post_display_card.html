@@ -10,11 +10,12 @@
   {%- if show_category -%}
     {%- include post_category.html categories=post.categories -%}
   {%- endif -%}
-  <!-- (<i>{{post.date | date: "%Y/%m/%d"}}</i>) -->
+  {% if post.img != nil %}
+  <div class="post-eyecatch"><img src="/assets/images/{{post.img}}"/></div>
+  {% endif %}
   <div class="post-title">
     <a href="{{post.url}}">{{post.title}}</a>
+    (<i>{{post.date | date: "%Y年%m月%d日"}}</i>)
   </div>
-  {% if post.img.defined? %}
-  <div class="post-eyecatch"><img src="{{post.img}}"/></div>
-  {% endif %}
+
 </div>
