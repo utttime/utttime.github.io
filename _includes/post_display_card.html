@@ -11,10 +11,10 @@
     {%- include post_category.html categories=post.categories -%}
   {%- endif -%}
   {% if post.img != nil %}
-  <div class="post-eyecatch"><img src="/assets/images/{{post.img}}"/></div>
+  <div class="post-eyecatch"><img src="{{site.url}}{{site.baseurl}}/assets/images/{{post.img}}"/></div>
   {% endif %}
   <div class="post-title">
-    <a href="{{post.url}}">{{post.title}}</a>
+    <a href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
     (<i>{{post.date | date: "%Y年%m月%d日"}}</i>)
   </div>
 

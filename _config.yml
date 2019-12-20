@@ -17,7 +17,7 @@ title: Ttime! Web
 email: ttime.todai[at]gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   東大工学部のイマを伝えるホームページ
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ttimeweb" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: ja-JP
 permalink: /:year/:month/:day/:title
