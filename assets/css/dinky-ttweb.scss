@@ -59,15 +59,35 @@ ul.gray{
 		color: $white;
 	}
 }
-div.categories span{// categories on post
-	color: $white;
-	display: inline-block;
-	border-radius: 5px;
-	background-color: $ttw-red;
-	padding-right: 5px;
-	padding-left: 5px;
-	a, &:hover{
+div.categories{// categories on post
+	span{
+		display: inline-block;
+		border-radius: 5px;
+		padding-right: 5px;
+		padding-left: 5px;
+		a, &:hover{
+			color: $white;
+		}
+	}
+	span.brochure{
 		color: $white;
+		background-color: $ttw-red;
+	}
+	span.campus-life{
+		background-color: #EFC69B;
+		color: #343F49;
+	}
+	span.event{
+		background-color: #658457;
+		color: #FFFFFF;
+	}
+	span.dept-intro{
+		background-color: #C69F89;
+		color: #343F49;
+	}
+	span.others{
+		background-color: #607E9B;
+		color: #FFFFFF;
 	}
 }
 div.menubar{
