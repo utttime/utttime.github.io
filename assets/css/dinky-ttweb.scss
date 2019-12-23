@@ -65,27 +65,24 @@ div.categories{// categories on post
 		border-radius: 5px;
 		padding-right: 5px;
 		padding-left: 5px;
-		a, &:hover{
-			color: $white;
-		}
 	}
-	span.brochure{
+	span.brochure, span.brochure a, span.brochure a:hover{
 		color: $white;
 		background-color: $ttw-red;
 	}
-	span.campus-life{
+	span.campus-life, span.campus-life a, span.campus-life a:hover{
 		background-color: #EFC69B;
 		color: #343F49;
 	}
-	span.event{
+	span.event, span.event a, span.event a:hover{
 		background-color: #658457;
 		color: #FFFFFF;
 	}
-	span.dept-intro{
+	span.dept-intro, span.dept-intro a, span.dept-intro a:hover{
 		background-color: #C69F89;
 		color: #343F49;
 	}
-	span.others{
+	span.others, span.others a, span.others a:hover{
 		background-color: #607E9B;
 		color: #FFFFFF;
 	}
