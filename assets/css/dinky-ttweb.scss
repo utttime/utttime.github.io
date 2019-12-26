@@ -6,11 +6,35 @@
 $letter-color: #242038;
 $ttw-red: #993333;
 $white: #ffffff;
+$breakpoints: (
+  'sm': 'screen and (min-width: 400px)',
+  'md': 'screen and (min-width: 768px)',
+  'lg': 'screen and (min-width: 1000px)',
+  'xl': 'screen and (min-width: 1200px)',
+) !default;
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
 
 body, h1, h2, h3, h4, h5, h6 {
 	color: $letter-color;
 }
+
 header {
+	@include mq(sm) {
+    display: none;
+  }
+	@include mq(md) {
+    display: none;
+  }
+	@include mq(lg) {
+    display: block;
+  }
+	@include mq(xl) {
+    display: block;
+  }
 	background-color: $ttw-red;
 	color: $white;
   width: 200px;
