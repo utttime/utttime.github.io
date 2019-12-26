@@ -22,12 +22,17 @@ $breakpoints: (
 body, h1, h2, h3, h4, h5, h6 {
 	color: $letter-color;
 }
+@include mq(md_ub){
+	body{
+		padding: 0px;
+	}
+	section{
+		padding: 20px 10px;
+	}
+}
 
 header {
-	@include mq(sm) {
-    display: none;
-  }
-	@include mq(md) {
+	@include mq(md_ub) {
     display: none;
   }
 	@include mq(lg) {
@@ -113,11 +118,18 @@ div.categories{// categories on post
 	}
 }
 div.menubar{
-	height: 100px;
-	width: 650px;
-  float: right;
+	@include mq(md_ub) {
+		height: auto;
+		width: auto;
+	  float: none;
+	}
+	@include mq(lg) {
+		height: 100px;
+		width: 650px;
+	  float: right;
+	}
 	ul.horizontal{
-		@include mq(sm) {
+		@include mq(md_ub) {
 			display: none;
 		}
 		@include mq(lg) {
@@ -130,7 +142,6 @@ div.menubar{
 #cp_mb{
 	@include mq(md_ub) {
 		display: block;
-		float: right;
 	}
 	@include mq(lg) {
 		display: none;
@@ -146,15 +157,15 @@ div.menubar{
 		height: 60px;
 		margin: 30px auto;
 		cursor: pointer;
-		-webkit-transition: all 0.5s ease-in-out;
-		        transition: all 0.5s ease-in-out;
+		-webkit-transition: all 0.3s ease-in-out;
+		        transition: all 0.3s ease-in-out;
 		border: 3px solid transparent;
 		border-radius: 50%;
 		background-color: #1b2538;
 	}
 	.menu div.menubar {
 		width: 30px;
-		margin: 17px auto;
+		margin: 13px 11px;
 	}
 	.menu div.menubar .bar {
 		display: block;
@@ -169,8 +180,8 @@ div.menubar{
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
-		-webkit-transition: all 0.5s ease;
-		        transition: all 0.5s ease;
+		-webkit-transition: all 0.3s ease;
+		        transition: all 0.3s ease;
 		text-align: center;
 		opacity: 0;
 	}
@@ -195,7 +206,7 @@ div.menubar{
 	.menu ul li a:target {
 		border-bottom-color: #1b2538;
 	}
-	/* クリックした時の動き */
+	/* animation when clicked */
 	#cp_navimenuid {
 		display: none;
 	}
