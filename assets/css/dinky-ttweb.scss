@@ -163,11 +163,11 @@ div.menubar{
 		border-radius: 50%;
 		background-color: #1b2538;
 	}
-	.menu div.menubar {
+	.menu div.menuicon {
 		width: 30px;
 		margin: 15px auto;
 	}
-	.menu div.menubar .bar {
+	.menu div.menuicon .bar {
 		display: block;
 		width: 100%;
 		height: 5px;
@@ -221,7 +221,7 @@ div.menubar{
 		display: block;
 		opacity: 1;
 	}
-	#cp_navimenuid:checked ~ .menu > .menubar {
+	#cp_navimenuid:checked ~ .menu > .menuicon {
 		display: none;
 	}
 }
