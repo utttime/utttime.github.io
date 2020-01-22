@@ -18,7 +18,7 @@
     </div>
 
     <ul>
-    	<li><a id="home" href="{{site.url}}{{site.baseurl}}">Home</a></li>
+    	<li><a id="home" href="{{site.url}}{{site.baseurl}}/">Home</a></li>
       {%- for page in site.pages -%}
         {%- assign filenames = page.name | split: "cat-" -%}
         {%- if page.layout == 'page' and filenames.size==1 -%}
