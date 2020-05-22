@@ -40,6 +40,7 @@ names_category:
 # to override the default setting.
 exclude:
   - README.md
+  - create_new_post.sh
   - Gemfile
   - Gemfile.lock
   - node_modules
