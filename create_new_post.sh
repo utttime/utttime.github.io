@@ -2,7 +2,7 @@
 
 CMDNAME=`basename $0`
 if [ $# -ne 1 ]; then
-  echo "Usage: $CMDNAME title " 1>&2
+  echo "Usage: $CMDNAME filename (ex. ttime2019summer)" 1>&2
   exit 1
 fi
 
