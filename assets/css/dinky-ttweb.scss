@@ -24,10 +24,10 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 @include mq(md_ub){
 	body{
-		padding: 0px;
+		padding: 80px 0px;
 	}
 	section{
-		padding: 20px 10px;
+		padding: 0px 10px;
 	}
 }
 
@@ -140,6 +140,13 @@ div.menubar{
 
 // thanks to https://copypet.jp/671/
 #cp_mb{
+	background-color: #FBFAF7;
+	position: fixed;
+	width:100%;
+	text-align:center;
+	top:0;
+	z-index: 100;
+
 	@include mq(md_ub) {
 		display: block;
 	}
@@ -155,7 +162,7 @@ div.menubar{
 		overflow: hidden;
 		width: 60px;
 		height: 60px;
-		margin: 30px auto;
+		margin: 10px auto;
 		cursor: pointer;
 		-webkit-transition: all 0.3s ease-in-out;
 		        transition: all 0.3s ease-in-out;
