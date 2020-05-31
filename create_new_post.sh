@@ -6,7 +6,7 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-FILENAME="_posts/$(date '+%Y-%m-%d')-$1.md"
+FILENAME="_posts/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
 
 touch "$FILENAME"
 cat <<EOF > "$FILENAME"
@@ -14,7 +14,7 @@ cat <<EOF > "$FILENAME"
 published: true
 layout: post
 title: タイトル
-date: $(date '+%Y-%m-%dT%H:%M:%S.%3NZ')
+date: $(date --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')
 categories:
   - カテゴリ
 img: $(date '+%Y/%m/')img_name.jpeg
