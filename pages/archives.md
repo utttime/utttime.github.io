@@ -6,6 +6,7 @@ permalink: /archives/
 
 |巻番号|目次|
 |:---|:---|
+|<a target="_blank" href="http://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_377310.pdf">NEW !<br>2019冬号</a>|工学からひろがる未来<br />①世界と、つながる。<br />②産業と、つながる。<br />③博士課程と、つながる。<br />④工学部出身者の進路は？<br />⑤物就職の疑問に答えます！<br />⑥社会と、つながる。<br />|
 |<a target="_blank" href="http://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_237463.pdf">NEW !<br>2019 Summer Edition</a>|Engineering Viewpoints from 5 Fields of Study<br />①Supporting Human Life<br />②Controling the Movement of Objects<br />③Expanding IT Possibilities<br />④Viewing Materials at the Micro Level<br />⑤Designing Functional Materials<br />|
 |<a target="_blank" href="http://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_048805.pdf">2019夏号</a>|5つの分野からみる工学<br />①人のくらしを支える<br />②モノの動きを制御する<br />③ＩＴの可能性を広げる<br />④ミクロに物質をみる<br />⑤物質の機能をデザインする<br />|
 |<a target="_blank" href="https://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_230249.pdf">2018冬号</a>|「工学部の人」第2弾<br />（社会基盤、建築、機械情報、精密、電気電子、計数、マテリアル、応用化学）<br />①どんな技術もそれを生み出した人があってこそ。研究の最前線で活躍される先生の人柄に迫ってみました！<br />②工学部での研究生活・おすすめの講義とは？現役学生の声を紹介します。<br />③社会を支える様々な研究を集めました！|
