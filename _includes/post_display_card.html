@@ -8,7 +8,7 @@
 
 <div class="post-item">
   {%- if show_category -%}
-    {%- include post_category.html categories=post.categories -%}
+    {%- include post_category.html categories=post.categories show_link=true -%}
   {%- endif -%}
   {% if post.img != nil %}
   <div class="post-eyecatch"><img src="{{site.url}}{{site.baseurl}}/assets/images/{{post.img}}"/></div>
