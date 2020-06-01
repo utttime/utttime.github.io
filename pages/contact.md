@@ -4,9 +4,4 @@ title: Contuct Us
 permalink: /contact/
 ---
 
-本メディアは東京大学の工学系の学生により運営されています。
-掲載内容や取材依頼等ございましたら
-下記メールアドレスへとご連絡ください。
-
-お問い合わせ先：ttime.todai[at]gmail.com
-([at]を@へ置き換えてご連絡ください。)
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfu8WpLm9VCKILNbuLoqmqTzCOr9dXkzOz3V5XX0rgONHjcFA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
