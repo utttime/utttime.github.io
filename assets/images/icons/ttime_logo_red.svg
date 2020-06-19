@@ -26,8 +26,11 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <defs
-     id="defs66" />
+  <defs id="defs66">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Arvo:400,700,400italic');
+    </style>
+  </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
      pagecolor="#ffffff"
