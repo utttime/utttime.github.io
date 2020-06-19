@@ -19,6 +19,9 @@ $breakpoints: (
   }
 }
 
+// fonts
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
 body, h1, h2, h3, h4, h5, h6 {
 	color: $letter-color;
 }
@@ -250,7 +253,8 @@ ul.post-list{// list of posts
 				display: inline-block;
 				clear: left;
 				a{
-					font-size: 12pt
+					font-size: 12pt;
+          font-family: 'Noto Sans Japanese', sans-serif;
 				}
 			}
 			div.post-eyecatch{
