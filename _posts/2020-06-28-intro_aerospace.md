@@ -5,7 +5,7 @@ title: 知っているようで知らない！？航空宇宙工学科
 date: 2020-06-28T02:13:51.127Z
 categories:
   - dept-intro
-img: 2020/06/intro_aerospace_thumbnail.jpeg
+img: 2020/06/intro_aerospace_thumbnail.jpg
 ---
 
 こんにちは！　この春から航空宇宙工学科3年の野口です。
@@ -46,7 +46,11 @@ img: 2020/06/intro_aerospace_thumbnail.jpeg
 
 航空宇宙学基礎設計は隔週で授業があり、その度に課題が出されます。航空宇宙学製図第二はその課題を行う時間で授業はありません。課題は、お題として提示された機械を設計し、その設計書と図面を提出するというもので、強度計算やCAD上での設計が個人的に大変だなと感じていますが、何時間もかけてやっと完成させたときの喜びはなんともいえません！
 
-![航空宇宙学基礎設計で作成したフランジ形固定軸継手の図面](/assets/images/2020/06/intro_aerospace.png)
+<figure>
+  <img src="/assets/images/2020/06/intro_aerospace.jpg" alt="航空宇宙学基礎設計で作成したフランジ形固定軸継手の図面" frame>
+  <center><figcaption>航空宇宙学基礎設計で作成したフランジ形固定軸継手の図面</figcaption></center>
+</figure>
+<br>
 
 このように、３年の夏学期までは幅広く学べるようカリキュラムが組まれていることがわかると思います。
 
