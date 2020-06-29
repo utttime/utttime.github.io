@@ -6,7 +6,15 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-FILENAME="_posts/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    FILENAME="_posts/$(gdate --date '1 day ago' '+%Y-%m-%d')-$1.md"
+    DATE="$(gdate --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
+    IMG_PATH="$(gdate '+%Y/%m/')img_name.jpeg"
+else
+    FILENAME="_posts/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
+    DATE="$(date --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
+    IMG_PATH="$(date '+%Y/%m/')img_name.jpeg"
+fi
 
 touch "$FILENAME"
 cat <<EOF > "$FILENAME"
@@ -14,10 +22,10 @@ cat <<EOF > "$FILENAME"
 published: true
 layout: post
 title: タイトル
-date: $(date --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')
+date: "$DATE"
 categories:
   - カテゴリ
-img: $(date '+%Y/%m/')img_name.jpeg
+img: "$IMG_PATH"
 ---
 
 本文
