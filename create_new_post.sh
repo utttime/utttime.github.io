@@ -13,7 +13,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 else
     FILENAME="_posts/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
     DATE="$(date --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
-    IMG_PATH="$(date '+%Y/%m/')img_name.jpeg"
+    IMG_PATH="$(date '+%Y/%m/')_thumbnail.jpg"
 fi
 
 touch "$FILENAME"
