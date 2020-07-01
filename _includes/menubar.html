@@ -1,5 +1,6 @@
 <ul class="horizontal gray">
-  {% for page in site.pages %}
+  {%- assign pages = (site.pages | sort: 'order') -%}
+  {% for page in pages %}
     {% assign filenames = page.name | split: "cat-" %}
     {% if page.layout == 'page' and filenames.size==1 %}
     <li><a href='{{site.url}}{{site.baseurl}}{{page.permalink}}'>{{page.title}}</a></li>
@@ -18,8 +19,9 @@
     </div>
 
     <ul>
-    	<li><a id="home" href="{{site.url}}{{site.baseurl}}/">Home</a></li>
-      {%- for page in site.pages -%}
+      <li><a id="home" href="{{site.url}}{{site.baseurl}}/">Home</a></li>
+      {%- assign pages = (site.pages | sort: 'order') -%}
+      {%- for page in pages -%}
         {%- assign filenames = page.name | split: "cat-" -%}
         {%- if page.layout == 'page' and filenames.size==1 -%}
         {%- assign abbrev = page.name | split: ".md" -%}

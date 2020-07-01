@@ -1,7 +1,13 @@
 {% assign category = include.categories %}
 
-{% assign cat-posts = site.posts | where: "categories", category %}
-<h2>{{ site.names_category[category] }}</h2>
+{% if category == 'all' %}
+  {% assign cat-posts = site.posts %}
+  <h2>All</h2>
+{% else %}
+  {% assign cat-posts = site.posts | where: "categories", category %}
+  <h2>{{ site.names_category[category] }}</h2>
+{% endif %}
+
 <ul class="post-list">
   {%- for post in cat-posts -%}
   <li>
