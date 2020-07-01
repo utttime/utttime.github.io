@@ -7,11 +7,11 @@ if [ $# -ne 1 ]; then
 fi
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    FILENAME="_posts/$(gdate --date '1 day ago' '+%Y-%m-%d')-$1.md"
+    FILENAME="_posts/articles/$(gdate --date '1 day ago' '+%Y-%m-%d')-$1.md"
     DATE="$(gdate --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
     IMG_PATH="$(gdate '+%Y/%m/')img_name.jpeg"
 else
-    FILENAME="_posts/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
+    FILENAME="_posts/articled/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
     DATE="$(date --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
     IMG_PATH="$(date '+%Y/%m/')_thumbnail.jpg"
 fi

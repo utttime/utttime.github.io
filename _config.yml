@@ -46,7 +46,7 @@ paginate_path: "/posts/page:num/"
 # to override the default setting.
 exclude:
   - README.md
-  - create_new_post.sh
+  - create_new_article.sh
   - Gemfile
   - Gemfile.lock
   - node_modules

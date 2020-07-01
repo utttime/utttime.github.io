@@ -3,4 +3,4 @@ layout: page
 title: Posts
 permalink: /campus-life/
 ---
-{% include list.html categories='campus-life' %}
+{% include list_articles.html categories='campus-life' %}

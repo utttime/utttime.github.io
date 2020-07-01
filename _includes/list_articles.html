@@ -1,10 +1,12 @@
 {% assign category = include.categories %}
 
+{% assign articles = site.posts | where: "articles", category %}
+
 {% if category == 'all' %}
-  {% assign cat-posts = site.posts %}
+  {% assign cat-posts = articles %}
   <h2>All</h2>
 {% else %}
-  {% assign cat-posts = site.posts | where: "categories", category %}
+  {% assign cat-posts = articles | where: "categories", category %}
   <h2>{{ site.names_category[category] }}</h2>
 {% endif %}
 
