@@ -3,4 +3,4 @@ layout: page
 title: Posts
 permalink: /event/
 ---
-{% include list.html categories='event' %}
+{% include list_articles.html categories='event' %}

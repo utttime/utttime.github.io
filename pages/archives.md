@@ -2,6 +2,7 @@
 layout: page
 title: Archives
 permalink: /archives/
+order: 2
 ---
 
 |巻番号|目次|

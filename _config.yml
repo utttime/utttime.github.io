@@ -24,6 +24,9 @@ permalink: /:year/:month/:day/:title
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-paginate
 # Build settings
 markdown: kramdown
 theme:  jekyll-theme-dinky
@@ -35,12 +38,15 @@ names_category:
   event: 'イベントレポート'
   dept-intro: '学科紹介'
   others: 'その他'
+# Paginations
+paginate: 20
+paginate_path: "/posts/page:num/"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
   - README.md
-  - create_new_post.sh
+  - create_new_article.sh
   - Gemfile
   - Gemfile.lock
   - node_modules
@@ -48,4 +54,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - _posts/template.txt
