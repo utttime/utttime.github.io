@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
+order: 3
 ---
 
 ## ■運営団体：Ttime!
