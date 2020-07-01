@@ -54,4 +54,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - _posts/template.txt
