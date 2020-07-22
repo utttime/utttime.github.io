@@ -4,7 +4,7 @@ layout: post
 title: 進学先としてのマテリアル工学科
 date: "2020-07-21T09:14:51.579Z"
 categories:
-  - dept_intro
+  - dept-intro
 ---
 
 こんにちは！ マテリアル工学科ナノ・機能マテリアルコース3年の辻悠基です。

@@ -4,7 +4,7 @@ layout: post
 title: システム創成学科の紹介！
 date: "2020-07-21T11:25:20.483Z"
 categories:
-  - dept_intro
+  - dept-intro
 ---
 
 こんにちは、今春３年生になりました、システム創成学科システムデザイン＆マネジメントコース（通称SDM)の武田です。
