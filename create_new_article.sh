@@ -9,7 +9,7 @@ fi
 if [[ "$OSTYPE" == "darwin"* ]]; then
     FILENAME="_posts/articles/$(gdate --date '1 day ago' '+%Y-%m-%d')-$1.md"
     DATE="$(gdate --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
-    IMG_PATH="$(gdate '+%Y/%m/')img_name.jpeg"
+    IMG_PATH="$(gdate '+%Y/%m/')_thumbnail.jpg"
 else
     FILENAME="_posts/articled/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
     DATE="$(date --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
@@ -24,7 +24,11 @@ layout: post
 title: タイトル
 date: "$DATE"
 categories:
-  - カテゴリ
+  - brochure
+  - campus-life
+  - event
+  - dept-intro
+  - others
 img: "$IMG_PATH"
 ---
 
