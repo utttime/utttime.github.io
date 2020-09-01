@@ -7,7 +7,7 @@ order: 2
 
 |巻番号|目次|
 |:---|:---|
-|<a target="_blank" href="http://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_622576.pdf">NEW!<br>2020夏号</a>|__「研究者と学生の素顔に迫る！」__<br />①「人のくらしを支える」<br />②「モノの動きを制御する」<br />③「ITの可能性を広げる」<br />④「ミクロに物質をみる」<br />⑤「物質の機能をデザインする」<br />|
+|<a target="_blank" href="http://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_622576.pdf">NEW!<br>2020夏号</a>|__「研究者と学生の素顔に迫る！」__<br />どうして工学部を選んだの？ 大学生活ってどんな感じ？ そもそも研究って何をしているの？ 先生が学生の時に頑張っていたことは？<br />そんな素朴な疑問をもとに、工学部の先生や学生の素顔に迫っていきます！<br />|
 |<a target="_blank" href="http://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_377310.pdf">2019 Winter Edition</a>|__"The Future Spread from Engineering"__<br />①Connect with the World<br />②Connect with Industry<br />③Connect with a Doctoral Degree Course<br />④Connect with Society<br />|
 |<a target="_blank" href="http://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_377310.pdf">2019冬号</a>|__「工学からひろがる未来」__<br />①世界と、つながる。<br />②産業と、つながる。<br />③博士課程と、つながる。<br />④社会と、つながる。<br />|
 |<a target="_blank" href="http://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_237463.pdf">2019 Summer Edition</a>|__"Engineering Collection"__<br />Engineering Viewpoints from 5 Fields of Study<br />①Supporting Human Life<br />②Controling the Movement of Objects<br />③Expanding IT Possibilities<br />④Viewing Materials at the Micro Level<br />⑤Designing Functional Materials<br />|
