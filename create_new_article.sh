@@ -11,7 +11,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     DATE="$(gdate --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
     IMG_PATH="$(gdate '+%Y/%m/')_thumbnail.jpg"
 else
-    FILENAME="_posts/articled/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
+    FILENAME="_posts/articles/$(date --date '1 day ago' '+%Y-%m-%d')-$1.md"
     DATE="$(date --date '1 day ago' '+%Y-%m-%dT%H:%M:%S.%3NZ')"
     IMG_PATH="$(date '+%Y/%m/')_thumbnail.jpg"
 fi
