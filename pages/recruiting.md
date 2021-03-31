@@ -1,0 +1,24 @@
+---
+layout: page
+title: Ttime!2021新入生歓迎会
+permalink: /recruiting/
+published: true
+---
+
+## Ttime!では新入生を募集しています！
+
+現在、Ttime!は学部生から修士課程までの様々な学科のメンバーが所属しています!
+
+下記日程にて新歓説明会を開催しますので、興味を持ってくださった方、もっと詳しく知りたい方はぜひご参加ください!
+
+### 説明会情報
+
+#### 日時
+  - 4/18(日) 19:00~
+  - 4/26(月) 20:30~
+  - 5/1(土) 19:00~
+
+以下のリンクに必要事項ご記入ください。
+後ほどZoomのリンクをお送りいたします。
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdT7gMk87ugqtzme9K1pD0tOluRKJGVSpMrfi_xzTiDtpQ0xw/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
