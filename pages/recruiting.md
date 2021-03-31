@@ -12,7 +12,7 @@ published: true
 下記日程にて新歓説明会を開催しますので、興味を持ってくださった方、もっと詳しく知りたい方はぜひご参加ください!
 
 ### 説明会情報
-
+説明会に関する資料は[こちら](https://drive.google.com/file/d/1JeIv9YEb7smGEEqWeboewKNbjOk_n3X4/view?usp=sharing)から！
 #### 日時
   - 4/18(日) 19:00~
   - 4/26(月) 20:30~
