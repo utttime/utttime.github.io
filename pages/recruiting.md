@@ -21,4 +21,4 @@ published: true
 以下のリンクに必要事項ご記入ください。
 後ほどZoomのリンクをお送りいたします。
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdT7gMk87ugqtzme9K1pD0tOluRKJGVSpMrfi_xzTiDtpQ0xw/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSene0BxlLPC3WcuAwpvL2rXjzhG6TBqc2Sajt0aAqLIFiJMUg/viewform?embedded=true" width="100%" height="2640">読み込んでいます…</iframe>
