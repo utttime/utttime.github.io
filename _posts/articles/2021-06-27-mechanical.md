@@ -5,7 +5,7 @@ title: 機械情報工学科の魅力とは！？
 date: "2021-06-27T21:27:50.141Z"
 categories:
   - dept-intro
-img: "2021/06/mechanical_thumbnail.jpg"
+img: "2021/06/mechanical_thumbnail.png"
 ---
 
 こんにちは！　機械情報工学科4年の成田です。
