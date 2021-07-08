@@ -22,7 +22,10 @@ published: true
   - 14:00 - 15:00
   - 16:00 - 17:00
 
+### 📗参加方法📗
+参加申し込みは[コチラ](https://www.u-tokyo.ac.jp/opendays/entry.html)のリンクから！
 
+### 📌その他お知らせ📌
 事前質問もこちらから募集しております！
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfR2e_Q9ekLw48cK-BuGjGIU1R6IeBBtHv07GlPgv7wHlq0mg/viewform?embedded=true" width="100%" height="1820" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
