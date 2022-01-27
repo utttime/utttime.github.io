@@ -2,7 +2,7 @@
 layout: page
 title: 🌰🌰Ttime!2021新歓説明会🌰🌰
 permalink: /recruiting/
-published: true
+published: false
 ---
 
 ## 🐟Ttime!新メンバー募集！
