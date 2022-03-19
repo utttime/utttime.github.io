@@ -1,0 +1,33 @@
+name: github pages
+
+env:
+  TZ: 'Asia/Tokyo'
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - name: Install dependencies 👨🏻‍💻
+        run: |
+          bundle config set path 'vendor/bundle'
+          bundle install
+      - name: Jekyll Build 💪
+        run: bundle exec jekyll build --future
+      - name: deploy 😎
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: utttime-dev/utttime-dev.github.io
+          publish_branch: main
+          publish_dir: ./_site
