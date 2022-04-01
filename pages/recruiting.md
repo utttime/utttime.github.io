@@ -5,8 +5,8 @@ permalink: /recruiting/
 published: true
 ---
 
-## 🐟Ttime!新メンバー募集！
-こんにちは✨私たちTtime!は工学部広報を行う、東大工学部公式の学生団体です。
+## 🐟Ttime!新編集メンバー募集！
+こんにちは✨私たちは工学部広報を行う、東大工学部広報室TAです。
 
 ### 🧪主な活動
 - 工学部広報誌Ttime!の作成 ([http://ut-ttime.net](http://ut-ttime.net))
@@ -32,4 +32,4 @@ published: true
 ご興味のある方は
 [サイト内の連絡フォーム](https://ut-ttime.net/contact/)または
 {{ site.email }}までご連絡いただけますと幸いです。
-Ttime!一同、皆様にお会いできますことを心待ちにしております！
+Ttime!編集メンバー一同、皆様にお会いできますことを心待ちにしております！
