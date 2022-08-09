@@ -1,11 +1,11 @@
 ---
 published: true
 layout: post
-title: 学際情報学府という選択肢
+title: My experience of studying in the UK
 date: "2022-08-03 T00:55:56.322Z"
 categories:
   - dept-intro
-
+img: "2022/08/Thomas_thumbnail.jpg"
 
 
 
