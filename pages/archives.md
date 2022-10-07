@@ -9,7 +9,7 @@ order: 2
 |:---|:---|
 |<a target="_blank" href="http://www.t.u-tokyo.ac.jp/hubfs/img/2022/Sasshi/text913.pdf">2022夏号</a>|__「工学を見据える」__<br />① 未来をひらく物性を創る<br />② 設計で性能向上へ<br />③ 空間をデザインする<br />④ 持続可能性を追究する<br />特集：工学部広場のオブジェ|
 |<a target="_blank" href="https://fs.hubspotusercontent00.net/hubfs/20511701/pdf/setcmm_20160725181747287435428723_661949.pdf">2021冬号</a>|__「工学の生まれる場所」__<br />① 本郷キャンパス<br />② 駒場リサーチキャンパス<br />③ 柏キャンパス<br />特集：狂ATE the FUTURE|
-|<a target="_blank" href="https://drive.google.com/file/d/1xxKej_J7lOm8bLEyHtcbbhQqQUrOqOpS/view?usp=sharing">2021 Summer Edition</a>|__"Classes at FOE"__<br />① Classroom Lectures<br />② Seminars<br />③ Creative Engineering Projects|
+|<a target="_blank" href="https://20511701.fs1.hubspotusercontent-na1.net/hubfs/20511701/pdf/2021Ttime_e.pdf">2021 Summer Edition</a>|__"Classes at FOE"__<br />① Classroom Lectures<br />② Seminars<br />③ Creative Engineering Projects|
 |<a target="_blank" href="https://www.t.u-tokyo.ac.jp/shared/public_relations/data/setcmm_20160725181747287435428723_600456.pdf">2021夏号</a>|__「工学部の授業」__<br />① 座学<br />② 演習<br />③ ものづくりプロジェクト|
 |<a target="_blank" href="">2020 Winter Edition</a>|__"Engineering across Borders"__<br />① Map of All 16 Faculty of Engineering Departments<br />② Inter-departmental Interviews<br />③ Comparative Departmental Interviews<br />④ Faculty of Engineering×Faculty of Agriculture Inter-faculty Interview<br />Special Feature : U Tokyo Project Sprint|
 |<a target="_blank" href="">2020冬号</a>|__「越境する工学」__<br />① 工学部全16学科マップ<br />② 学科横断インタビュー<br />③ 学科比較インタビュー<br />④ 工学部×農学部 学部横断インタビュー<br />特集：UTokyo Project Sprint|
