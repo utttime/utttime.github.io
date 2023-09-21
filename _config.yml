@@ -47,7 +47,7 @@ paginate_path: "/posts/page:num/"
 exclude:
   - README.md
   - create_new_article.sh
-  - docker-comose.yml
+  - docker-compose.yml
   - _config.docker.yml
   - Gemfile
   - Gemfile.lock
