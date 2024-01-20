@@ -1,15 +1,9 @@
 version: "3.8"
 services:
   site:
-    command: jekyll serve --skip-initial-build --config _config.yml _config.docker.yml
+    command: jekyll serve --config _config.yml _config.docker.yml
     image: jekyll/jekyll:3.8
     volumes:
       - .:/srv/jekyll
     ports:
       - 4000:4000
-
-  build:
-    command: jekyll build --config _config.yml _config.docker.yml
-    image: jekyll/jekyll:3.8
-    volumes:
-      - .:/srv/jekyll
